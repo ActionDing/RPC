@@ -1,6 +1,5 @@
 package com.ding.dingrpc.common.utils;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
@@ -53,8 +52,7 @@ public class ReflectionUtils {
      */
     public static Object invoke(Object obj,
                                 Method method,
-                                Object... args
-    ) {
+                                Object... args) {
         try {
             return method.invoke(obj, args);
         } catch (Exception e) {
