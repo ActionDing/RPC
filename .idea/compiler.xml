@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ding-RPC-example" />
+        <module name="Ding-RPC-server" />
+        <module name="Ding-RPC-transport" />
+        <module name="Ding-RPC-codec" />
+        <module name="Ding-RPC-common" />
+        <module name="Ding-RPC-client" />
+        <module name="Ding-RPC-proto" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="gk-rpc" target="1.8" />
+      <module name="tt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
