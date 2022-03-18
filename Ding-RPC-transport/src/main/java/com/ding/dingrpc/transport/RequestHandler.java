@@ -9,5 +9,5 @@ import java.io.OutputStream;
  * @author dingkj
  */
 public interface RequestHandler {
-    void onRequest(InputStream recive, OutputStream toResp);
+    void onRequest(InputStream receive, OutputStream toResp);
 }

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Ding-RPC-client</artifactId>
+    <artifactId>Ding-RPC-example</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,27 +19,13 @@
     <dependencies>
         <dependency>
             <groupId>com.ding</groupId>
-            <artifactId>Ding-RPC-proto</artifactId>
+            <artifactId>Ding-RPC-client</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.ding</groupId>
-            <artifactId>Ding-RPC-codec</artifactId>
+            <artifactId>Ding-RPC-server</artifactId>
             <version>${project.version}</version>
-        </dependency>
-         <dependency>
-            <groupId>com.ding</groupId>
-            <artifactId>Ding-RPC-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ding</groupId>
-            <artifactId>Ding-RPC-transport</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
         </dependency>
     </dependencies>
 </project>
